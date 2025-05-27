@@ -1,4 +1,4 @@
-My c++ cmake template
+My c++ premake template
 
 
 # Perquisites
