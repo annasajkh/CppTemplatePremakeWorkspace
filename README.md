@@ -32,21 +32,27 @@ add VCPKG_ROOT env variable with the value of your-preferred-install-dir/vcpkg a
 # Build
 for windows<br>
 ```
+vcpkg install
 premake5 vs2022
 open and build it in visual studio
 ```
 for linux
 ```
+vcpkg install
 premake5 gmake
 ./Makefile
 ```
 
 # Add New Package
 first you add the package<br>
-`vcpkg add port fmt`
+```
+vcpkg add port fmt
+```
 
 and then you can install the package locally<br>
-`vcpkg install`
+```
+vcpkg install
+```
 
 add the lib to a project build script<br>
 ```
