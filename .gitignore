@@ -1,0 +1,7 @@
+/.vs
+/CppTemplatePremake/bin
+/CppTemplatePremake/obj
+CppTemplatePremakeWorkspace.sln
+CppTemplatePremake/CppTemplatePremake.vcxproj
+CppTemplatePremake/CppTemplatePremake.vcxproj.user
+/vcpkg_installed
