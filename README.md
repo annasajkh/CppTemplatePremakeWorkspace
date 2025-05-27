@@ -34,8 +34,10 @@ for windows<br>
 ```
 vcpkg install
 premake5 vs2022
-open and build it in visual studio
 ```
+
+open and build it in visual studio<br>
+
 for linux
 ```
 vcpkg install
