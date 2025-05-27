@@ -31,9 +31,9 @@ add VCPKG_ROOT env variable with the value of your-preferred-install-dir/vcpkg a
 
 # Build
 for windows<br>
-`premake5 vs2022`
+`premake5 vs2022`<br>
 open and build it in visual studio<br>
-for linux<br>
+for linux
 ```
 premake5 gmake
 ./Makefile
