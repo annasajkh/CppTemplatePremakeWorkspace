@@ -18,7 +18,7 @@ cd vcpkg; .\bootstrap-vcpkg.bat
 Configure the VCPKG_ROOT environment variable
  
 ```powerShell
-$env:VCPKG_ROOT = "your/preferred/install/dir"
+$env:VCPKG_ROOT = "your/preferred/install/dir/vcpkg"
 $env:PATH = "$env:VCPKG_ROOT;$env:PATH"
 ```
 
@@ -33,7 +33,7 @@ cd vcpkg; ./bootstrap-vcpkg.sh
 Configure the VCPKG_ROOT environment variable
 
 ```bash
-export VCPKG_ROOT=your/preferred/install/dir
+export VCPKG_ROOT=your/preferred/install/dir/vcpkg
 export PATH=$VCPKG_ROOT:$PATH
 ```
 
