@@ -41,7 +41,7 @@ export PATH=$VCPKG_ROOT:$PATH
 ### Windows
 ```
 vcpkg install
-premake5 vs2022
+./premake5 vs2022
 ```
 
 open and build it in visual studio<br>
@@ -49,7 +49,7 @@ open and build it in visual studio<br>
 ### Linux
 ```
 vcpkg install
-premake5 gmake
+./premake5 gmake
 make
 ```
 
