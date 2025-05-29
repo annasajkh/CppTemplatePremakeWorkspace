@@ -15,7 +15,7 @@ git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg; .\bootstrap-vcpkg.bat
 ```
 
-Configure the VCPKG_ROOT environment variable
+configure the VCPKG_ROOT environment variable
  
 ```powerShell
 $env:VCPKG_ROOT = "your/preferred/install/dir/vcpkg"
@@ -30,7 +30,7 @@ git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg; ./bootstrap-vcpkg.sh
 ```
 
-Configure the VCPKG_ROOT environment variable
+configure the VCPKG_ROOT environment variable
 
 ```bash
 export VCPKG_ROOT=your/preferred/install/dir/vcpkg
