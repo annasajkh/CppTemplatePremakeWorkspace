@@ -1,4 +1,4 @@
-My c++ premake template
+My c++ premake template.
 
 # Perquisites
 #### Windows
