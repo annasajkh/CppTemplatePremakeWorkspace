@@ -1,5 +1,6 @@
 workspace "CppTemplatePremakeWorkspace"
-	configurations { "Debug", "Release", "Dist" }
+	configurations { "Debug", "Release", "Distribute" }
 	startproject "CppTemplatePremake"
 
+    
 include "CppTemplatePremake/CppTemplatePremake.lua"

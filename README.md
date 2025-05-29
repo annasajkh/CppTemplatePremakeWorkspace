@@ -1,36 +1,44 @@
 My c++ premake template
 
-
 # Perquisites
-for windows is visual studio build tools and for linux is gcc<br>
+#### Windows
+you need visual studio build tools installed
+
+#### Linux
+you need gcc installed
 
 # Perquisites Vcpkg
-for windows
+### Windows
 ```
-cd your-preferred-install-dir
+cd your/preferred/install/dir
 git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg; .\bootstrap-vcpkg.bat
 ```
 
-Configure the VCPKG_ROOT environment variable.<br>
-
-PowerShell<br>
-```
-$env:VCPKG_ROOT = "your-preferred-install-dir"
+Configure the VCPKG_ROOT environment variable
+ 
+```powerShell
+$env:VCPKG_ROOT = "your/preferred/install/dir"
 $env:PATH = "$env:VCPKG_ROOT;$env:PATH"
 ```
 
-for linux<br>
+#### Linux
+
 ```
-cd your-preferred-install-dir
+cd your/preferred/install/dir
 git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg; ./bootstrap-vcpkg.sh
 ```
 
-add VCPKG_ROOT env variable with the value of your-preferred-install-dir/vcpkg and also add your-preferred-install-dir/vcpkg to path<br>
+Configure the VCPKG_ROOT environment variable
+
+```bash
+export VCPKG_ROOT=your/preferred/install/dir
+export PATH=$VCPKG_ROOT:$PATH
+```
 
 # Build
-for windows<br>
+### Windows
 ```
 vcpkg install
 premake5 vs2022
@@ -38,11 +46,11 @@ premake5 vs2022
 
 open and build it in visual studio<br>
 
-for linux
+### Linux
 ```
 vcpkg install
 premake5 gmake
-./Makefile
+make
 ```
 
 # Add New Package
