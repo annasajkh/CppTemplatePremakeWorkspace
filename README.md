@@ -2,10 +2,10 @@ My c++ premake template
 
 # Perquisites
 #### Windows
-you need visual studio build tools installed
+You need visual studio build tools installed.
 
 #### Linux
-you need gcc installed
+You need gcc installed.
 
 # Perquisites Vcpkg
 ### Windows
@@ -15,7 +15,7 @@ git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg; .\bootstrap-vcpkg.bat
 ```
 
-configure the VCPKG_ROOT environment variable
+Configure the VCPKG_ROOT environment variable.
  
 ```powerShell
 $env:VCPKG_ROOT = "your/preferred/install/dir/vcpkg"
@@ -30,7 +30,7 @@ git clone https://github.com/microsoft/vcpkg.git
 cd vcpkg; ./bootstrap-vcpkg.sh
 ```
 
-configure the VCPKG_ROOT environment variable
+Configure the VCPKG_ROOT environment variable.
 
 ```bash
 export VCPKG_ROOT=your/preferred/install/dir/vcpkg
@@ -44,7 +44,7 @@ vcpkg install
 ./premake5 vs2022
 ```
 
-open and build it in visual studio<br>
+Open and build it in visual studio.<br>
 
 ### Linux
 ```
@@ -53,20 +53,20 @@ vcpkg install
 make
 ```
 
-# Add New Package
-first you add the package<br>
+# Add New Library
+Add the library.<br>
 ```
 vcpkg add port fmt
 ```
 
-and then you can install the package locally<br>
+Install the library locally.<br>
 ```
 vcpkg install
 ```
 
-add the lib to a project build script<br>
+Add the library to a project build script.<br>
 ```
 local libraries = { "fmt" }
 ```
 
-you can configure more of the build script afterward<br>
+You can configure the library in the build script afterward<br>
